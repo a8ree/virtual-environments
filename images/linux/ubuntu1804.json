@@ -22,7 +22,7 @@
         "capture_name_prefix": "packer",
         "image_version": "dev",
         "image_os": "ubuntu18",
-        "github_feed_token": "`github_feed_token`"
+        "github_feed_token": "{{env `github_feed_token`}}"
     },
     "sensitive-variables": ["client_secret", "github_feed_token"],
     "builders": [
